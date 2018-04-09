@@ -6,7 +6,7 @@ Template Name: Blog Posts
 
 get_header();
 ?>
-<section class="section-blog">
+<section class="blog-1">
         <div class="judul-blog">
             <h1>BLOG</h1>
         </div>

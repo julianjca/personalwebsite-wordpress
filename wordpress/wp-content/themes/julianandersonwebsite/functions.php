@@ -169,3 +169,11 @@ function remove_admin_login_header()
 	remove_action('wp_head', '_admin_bar_bump_cb');
 }
 add_action('get_header', 'remove_admin_login_header');
+
+function new_excerpt_more($more)
+{
+	global $post;
+	return '... <a class="moretag" href="' . get_permalink($post->ID) . '"> continue reading &raquo;</a>';
+}
+add_filter('excerpt_more', 'new_excerpt_more');
+
