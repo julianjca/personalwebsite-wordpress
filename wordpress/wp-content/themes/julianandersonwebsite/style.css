@@ -603,9 +603,7 @@ template {
     display: block;
 }
 
-.hentry {
-    margin: 0 0 1.5em;
-}
+.hentry {}
 
 .updated:not(.published) {
     display: none;
@@ -1299,6 +1297,27 @@ footer {
 
 /*BLOG*/
 
+#page {
+    background-color: #D8D8D8;
+}
+
+.post-comments-badge {
+    position: absolute;
+    text-align: right;
+    margin-right: 10%;
+    margin-bottom: 2%;
+}
+
+article {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    padding: 1% 1%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
 .judul-blog h1 {
     text-align: center;
     font-family: 'Muli';
@@ -1310,11 +1329,13 @@ footer {
 }
 
 .section-blog {
-    background-color: #1a1a1a;
+    display: inline-block;
     width: 100%;
-    height: 100%;
-    padding-top: 8%;
-    padding-bottom: 10%;
+    margin-left: 3%;
+}
+
+.section-blog i {
+    padding-right: 3%;
 }
 
 .blog-post {
@@ -1325,22 +1346,21 @@ footer {
 
 .full-blog {
     width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-bottom: 1%;
+    margin-bottom: 0;
+    font-size: 30px;
+    margin-left: 3%;
+}
+
+.full-blog a {
+    color: #1a1a1a;
+    text-decoration: none;
 }
 
 .full-blog-inside {
     padding: 3% 3%;
     border: 2px solid #D8D8D8;
     background-color: #fff;
-}
-
-.full-blog h2 {
-    margin-bottom: 0;
-    font-size: 30px;
-    color: #1a1a1a;
 }
 
 .full-blog h3 {
@@ -1647,4 +1667,18 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 2%;
+}
+
+#page {
+    background-color: #D8D8D8;
+}
+
+article {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    padding: 1% 1%;
+    margin-bottom: 5%;
+    margin-top: 5%;
 }

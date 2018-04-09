@@ -1,31 +1,29 @@
 <?php
 
 /**
- * The main template file.
+ * The main template file
  *
  * This is the most generic template file in a WordPress theme
  * and one of the two required files for a theme (the other being style.css).
  * It is used to display a page when nothing more specific matches a query.
  * E.g., it puts together the home page when no home.php file exists.
- * Learn more: http://codex.wordpress.org/Template_Hierarchy
  *
- * @package Bootstrap to WordPress
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ *
+ * @package Julian_Anderson_Website
  */
 
-get_header(); ?>
-
-	<section class="section-blog">
+get_header();
+?>
+<section class="section-blog">
         <div class="judul-blog">
             <h1>BLOG</h1>
         </div>
 	</section>
 
-	<!-- BLOG CONTENT
-	================================================== -->
-	<div class="container">
-		<div class="row" id="primary">
-				
-			<main id="content" class="col-sm-8" role="main">
+	<div class="blog-post">
+		<div class="full-blog" id="primary">
+			<main id="content" class="full-blog-inside" role="main">
 			
 			<?php if (have_posts()) : ?>
 
@@ -42,7 +40,7 @@ get_header(); ?>
 
 			<?php endwhile; ?>
 
-			<?php julianandersonwebsite_paging_nav(); ?>
+			<?php bootstrap2wordpress_paging_nav(); ?>
 
 			<?php else : ?>
 	
@@ -51,14 +49,9 @@ get_header(); ?>
 			<?php endif; ?>
 			
 			</main><!-- content -->
-		
-			<!-- SIDEBAR
-			================================================== -->
-			<aside class="col-sm-4">
-			<?php get_sidebar(); ?>
-			</aside>
-		
-		</div><!-- primary -->
-	</div><!-- container -->
 
-<?php get_footer(); ?>
+		</div><!-- #main -->
+	</div><!-- #primary -->
+
+<?php
+get_footer(); ?>
