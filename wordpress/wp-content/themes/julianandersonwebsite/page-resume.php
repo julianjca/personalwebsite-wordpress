@@ -24,7 +24,7 @@ get_header();
                 <h2>Technologies</h2>
             </div>
             <div class="col-skills">
-                <h2>Things I Use Daily</h2>
+                <h2>(Things I Use Daily)</h2>
                 <p>- HTML
                     <br> - CSS
                     <br> - Javascript
@@ -42,10 +42,10 @@ get_header();
                 <h2>Thing's I've Done</h2>
             </div>
             <div class="col-skills">
-                <h2>Projects</h2>
-                <p>- My Own Personal Website (juliananderson.xyz)
-                    <br> - Erwin Halim Interior (erwinhaliminterior.com)
-                    <br> - Satu Jiwa Indonesia (satujiwaindonesia.id)
+                <h2>(Projects)</h2>
+                <p>- My Own Personal Website <a href="http://juliananderson.xyz">(juliananderson.xyz)</a>
+                    <br> - Erwin Halim Interior <a href="http://erwinhaliminterior.com">(erwinhaliminterior.com)</a>
+                    <br> - Satu Jiwa Indonesia <a href="http://satujiwaindonesia.id">(satujiwaindonesia.id)</a>
 
                 </p>
             </div>

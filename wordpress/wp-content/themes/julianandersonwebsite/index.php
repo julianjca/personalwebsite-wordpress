@@ -22,10 +22,9 @@ get_header(); ?>
 
 	<!-- BLOG CONTENT
 	================================================== -->
-	<div class="container">
-		<div class="row" id="primary">
+
 				
-			<main id="content" class="col-sm-8" role="main">
+			
 			
 			<?php if (have_posts()) : ?>
 
@@ -42,23 +41,17 @@ get_header(); ?>
 
 			<?php endwhile; ?>
 
-			<?php julianandersonwebsite_paging_nav(); ?>
-
 			<?php else : ?>
 	
 				<?php get_template_part('content', 'none'); ?>
 	
 			<?php endif; ?>
 			
-			</main><!-- content -->
+		
 		
 			<!-- SIDEBAR
 			================================================== -->
-			<aside class="col-sm-4">
-			<?php get_sidebar(); ?>
-			</aside>
 		
-		</div><!-- primary -->
-	</div><!-- container -->
+	
 
 <?php get_footer(); ?>

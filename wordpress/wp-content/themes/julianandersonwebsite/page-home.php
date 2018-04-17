@@ -15,6 +15,10 @@ get_header();
             <h1>LET'S CREATE SOMETHING
                 <br> AMAZING TOGETHER</h1>
         </div>
+
+        <div class="email-btn">
+            <a href="mailto:hi@juliananderson.xyz,julianjca11@gmail.com"><span>hi@juliananderson.xyz</span></a>
+        </div>
     </section>
 
 
@@ -48,13 +52,13 @@ get_header();
         <h2>My Latest Projects</h2>
         <div class="container2 ">
             <div class="col ">
-                <img src="<?php bloginfo('template_directory'); ?>/assets/resources/img/erwinhalim.jpg " alt="Erwin Halim Interior " class="image-projects ">
+                <a href="http://erwinhaliminterior.com"><img src="<?php bloginfo('template_directory'); ?>/assets/resources/img/erwinhalim.jpg " alt="Erwin Halim Interior " class="image-projects "></a>
                 <div class="middle ">
                     <div class="text ">Erwin Halim Interior</div>
                 </div>
             </div>
             <div class="col ">
-                <img src="<?php bloginfo('template_directory'); ?>/assets/resources/img/satujiwa.jpg " alt="Satu Jiwa Indonesia " class="image-projects ">
+                <a href="http://satujiwaindonesia.id"><img src="<?php bloginfo('template_directory'); ?>/assets/resources/img/satujiwa.jpg " alt="Satu Jiwa Indonesia " class="image-projects "></a>
                 <div class="middle ">
                     <div class="text ">Satu Jiwa Indonesia</div>
                 </div>
@@ -102,7 +106,7 @@ get_header();
             </div>
         </div>
         <div class="insta-button ">
-            <a href="/about ">
+            <a href="http://instagram.com/julianjca ">
                 <h2>MORE ABOUT ME</h2>
             </a>
 

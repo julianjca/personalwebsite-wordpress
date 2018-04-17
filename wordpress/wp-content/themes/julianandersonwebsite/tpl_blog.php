@@ -29,14 +29,12 @@ get_header();
 			get_template_part('content', get_post_format());
 			?>
 
-			<?php endwhile; ?>
-
-			<?php bootstrap2wordpress_paging_nav(); ?>
-
+			
 			<?php else : ?>
 	
 				<?php get_template_part('content', 'none'); ?>
-	
+				<?php
+			get_footer(); ?>
 			<?php endif; ?>
 			
 			</main><!-- content -->
@@ -45,5 +43,4 @@ get_header();
 	</div><!-- #primary -->
 
 
-<?php
-get_footer(); ?>
+

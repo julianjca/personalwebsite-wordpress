@@ -33,7 +33,7 @@
                 <a href="/resume" class="menu-text ">RESUME</a>
             </li>
             <li>
-                <a href="/contactme" class="menu-text ">CONTACT ME</a>
+                <a href="/contact" class="menu-text ">CONTACT ME</a>
             </li>
 
         </ul>
@@ -44,16 +44,16 @@
     <div class="social-media">
         <ul>
             <li>
-                <i class="fab fa-instagram"></i>
+                <a href="http://instagram.com.julianjca"><i class="fab fa-instagram"></i></a>
             </li>
             <li>
-                <i class="far fa-envelope"></i>
+            <a href="mailto:julianjca11@gmail.com,hi@juliananderson.xyz"><i class="far fa-envelope"></i></a>
             </li>
             <li>
-                <i class="fab fa-linkedin"></i>
+            <a href="http://twitter.com/julianjca_"><i class="fab fa-twitter"></i></a>
             </li>
             <li>
-                <i class="fab fa-facebook-square"></i>
+            <a href="https://www.facebook.com/jca.11"><i class="fab fa-facebook-square"></i></a>
             </li>
         </ul>
     </div>

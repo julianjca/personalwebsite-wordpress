@@ -23,7 +23,7 @@ get_header();
 <h1> Few Random Facts
     <br> About Me</h1>
 <p>I am actually an Industrial Engineer Students. I do web development as a hobby at first. I love many kind of sports.
-    A huge fan of Chelsea Football Club and Golden States Warriors.
+    A huge fan of Chelsea Football Club and Philadelphia 76ers.
 </p>
 </section>
 
